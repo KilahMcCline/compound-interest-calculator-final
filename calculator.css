@@ -1,0 +1,151 @@
+body {
+	font-family: georgia;
+}
+body * {
+	box-sizing: border-box;
+
+}
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 10px;
+
+
+
+}
+ul li {
+	margin-bottom: 10px;
+	font-style: normal;
+	font-family: georgia;
+	margin: 10px 0 0 0px;
+
+}
+
+form {
+	width:600px;
+	height:390px;
+	font-family: georgia;
+	background-color: #B2B2B2;
+	opacity: 67%;
+	border: 2px solid #1984CC;
+
+}
+h1{
+	font-family: georgia;
+	color:#1984CC;
+	margin-bottom: 10px;
+
+
+}
+h2 {
+	font-size: 20px;
+	font-family: arial;
+	background-color:#1984CC;
+	color:white;
+	font-family: georgia;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 6px;
+	margin: 0 0 0 0;
+}
+
+h3 {
+	font-size: 12px;
+	font-family: arial;
+	font-weight:lighter;
+	width:658px;
+
+}
+p {
+	font-family: georgia;
+	font-weight: normal;
+	margin: 10px 0 0 10px;
+
+}
+
+.symbol {
+	float:right;}
+
+.results {
+	float: right;
+	width: 50%;
+	}
+
+.result-data-group{
+	position: relative;
+	margin-bottom: 30px;
+	padding-left: 50px;
+}
+.result-data-group .result-starting {
+	position: relative;
+	margin-bottom: 30px;
+
+	}
+.result-data-group.result-contribution {
+	padding-left: 50px;
+
+	}
+.result-data-group.result-total {
+	padding-left: 50px;
+
+	}
+
+
+.result-label,
+.final-val {
+	display: block;
+	}
+.result-legend {
+	left: 0;
+	display: block;
+	height: 26px;
+	width: 26px;
+	border-radius: 0;
+	background-color: #ddd;
+	position: absolute;
+
+	}
+.result-label {
+	margin-bottom: 10px;
+	font-size: 24px;
+	display: block;
+
+	}
+.result-val {
+	font-size: 24px;
+	}
+.result-total .result-label {
+	font-size: 24px;
+
+	}
+.result-total {
+	font-size: 24px;}
+
+
+.submit-button {
+	background-color: #1984CC;
+	width:100px;
+	height:30px;
+	font-size:15px;
+	font-weight: normal;
+	font-family: georgia;
+	color:white;
+	margin-bottom:10px;
+	border:#1984CC;
+}
+.white-box {
+	float:right;
+	margin-right:90px;
+	display: block;
+
+
+
+}
+.white-border {
+background-color: white;
+float:right;
+margin-right: 90px;
+width:130px;
+height:20px;
+font-weight: normal;
+}

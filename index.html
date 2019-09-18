@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Compound Interest Calculator</title>
+	<meta name="description" content="DESCRIPTION">
+	<link rel="stylesheet" href="calculator.css">
+
+	<!--[if lt IE 9]>
+	<script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<main>
+	<h1>Compound Interest Calculator</h1>
+	<h3> Compound interest is very simple: It is the interest you earn on both of
+your original deposit and in the interest you continue to build. It also allows
+you to grow your savings faster over time.</h3>
+
+
+
+	<form>
+	<h2> Inputs </h2>
+		<ul>
+			<li>
+				<label for="amount">Starting Amount</label>
+				<input class="white-box" type="number" name="amount" value="1000">
+				<span class="symbol"> $ </span>
+
+			</li>
+			<li>
+				<label for="interest">Interest Rate</label>
+				<input class="white-box" type="number" name="interest" value="2">
+				<span class="symbol"> % </span>
+			</li>
+			<li>
+				<label for="contribution">Annual Contribution</label>
+				<input class="white-box" type="number" name="contribution" value="0">
+				<span class="symbol"> $ </span>
+			</li>
+			<li>
+				<label for="duration">Duration(Years)</label>
+				<input class="white-box" type="number" name="duration" value="10">
+			</li>
+		</ul>
+<center>
+		<button type="button" class="submit-button"onclick="calculate()">Submit</button>
+</center>
+	<h2>Results</h2>
+	<form>
+	<ul>
+		<li>
+			<span>Starting amount:</span>
+			<strong class="starting-val white-border">1000</strong>
+			<span class="symbol"> $ </span>
+
+		</li>
+		<li>
+			<span>Contribution total: </span>
+			<strong class="contribution-val white-border">0.00</strong>
+			<span class="symbol"> $ </span>
+		</li>
+		<li>
+			<span>Final Amount in <strong class="duration-val">10</strong> years:</span>
+			 <strong class="final-val white-border">1218.99</strong>
+			 <span class="symbol"> $ </span>
+		</li>
+	</ul>
+</form>
+<!-- <section class=results>
+<div class="result-data-group result-starting">
+	<span class="result-legend"></span>
+	<span class="result-label">Starting Amount</span>
+
+</div>
+<div class="result-data-group result-contribution">
+	<span class="result-legend"></span>
+	<span class="result-label">Contribution Total</span>
+</div>
+<div class="result-data-group result-total">
+	<span class="result-legend"></span>
+	<span class="result-label">Final Amount in 10 years <strong class="duration-val"></span>
+</div> -->
+
+</section>
+<script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
