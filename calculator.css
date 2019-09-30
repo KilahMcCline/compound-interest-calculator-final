@@ -28,12 +28,14 @@ form {
 	background-color: #B2B2B2;
 	opacity: 67%;
 	border: 2px solid #1984CC;
+	margin-left: 15px;
 
 }
 h1{
 	font-family: georgia;
 	color:#1984CC;
 	margin-bottom: 10px;
+	margin-left: 15px;
 
 
 }
@@ -50,10 +52,11 @@ h2 {
 }
 
 h3 {
-	font-size: 12px;
-	font-family: arial;
+	font-size: 16px;
+	font-family: georgia;
 	font-weight:lighter;
 	width:658px;
+	margin-left: 15px;
 
 }
 p {
@@ -148,4 +151,19 @@ margin-right: 90px;
 width:130px;
 height:20px;
 font-weight: normal;
+}
+
+.pie-chart{
+
+
+
+}
+form {
+	float: left;
+}
+.results {
+	float: right:
+}
+.calculator-wrapper{
+	/* display:flex; */
 }
